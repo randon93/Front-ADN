@@ -1,0 +1,17 @@
+<p>listar-inventarios</p>
+<div id="pedidos">
+  <table style="width:100%">
+    <tr>
+      <th>Codigo Producto</th>
+      <th>Precio Total</th>
+      <th>Cantidad del producto</th>
+      <th>Codigo Usuario</th>
+    </tr>
+    <tr class="elemento" *ngFor="let item of listaPedidos | async">
+      <td>{{item.producto}}</td>
+      <td>{{item.precioTotal}}</td>
+      <td>{{item.cantidad}}</td>
+      <td>{{item.usuario}}</td>
+    </tr>
+  </table>
+</div>

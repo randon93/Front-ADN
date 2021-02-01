@@ -1,0 +1,9 @@
+{
+    "inicio.idioma": "Cambiar idioma"
+    ,"producto": "Producto"
+    ,"producto.crear": "Crear producto"
+    ,"producto.borrar": "Borrar producto"
+    ,"producto.listar": "Listar producto"
+    ,"descripcion.ngx.translate": "ngx-translate es una librería que permite la carga dinámica de archivos de traducciones en nuestras aplicaciones angular, esta capacidad de carga dinámica de archivos nos permite cambiar el idioma de la aplicación sin necesidad de recargar la pantalla."    
+    ,"navbar.internacionalizacion": "internacionalizacion"
+}

@@ -1,0 +1,24 @@
+<p>listar-inventarios</p>
+<div id="pedidos">
+  <table style="width:100%">
+    <tr>
+      <th>Nombre Producto</th>
+      <th>Codigo Producto</th>
+      <th>Stock</th>
+      <th>Ultima Recarga(AAAA-MM-DD)</th>
+      <th>Agotado</th>
+      <th>Bloqueado</th>
+    </tr>
+    <tr class="elemento" *ngFor="let item of listaInventario | async">
+      <td>{{ item.nombreProducto }}</td>
+      <td>{{ item.producto }}</td>
+      <td>{{ item.cantidad }}</td>
+      <td>{{ item.fechaRecarga }}</td>
+      <td>{{ item.recargaStock }}</td>
+      <td>{{ item.bloqueado }}</td>
+      <td>
+        <button (click)="actualizarStock(item)">Actualizar Stock</button>
+      </td>
+    </tr>
+  </table>
+</div>

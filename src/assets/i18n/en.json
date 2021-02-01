@@ -1,0 +1,9 @@
+{
+    "inicio.idioma": "Change language"
+    ,"producto": "Product"
+    ,"producto.crear": "Create product"
+    ,"producto.borrar": "Delete product"
+    ,"producto.listar": "List product"
+    ,"descripcion.ngx.translate": "NGX-Translate is an internationalization library for Angular. It lets you define translations for your content in different languages and switch between them easily. It gives you access to a service, a directive and a pipe to handle any dynamic or static content. NGX-Translate is also extremely modular. It is written in a way that makes it really easy to replace any part with a custom implementation in case the existing one doesn't fit your needs."
+    ,"navbar.internacionalizacion": "internacionalization"
+}

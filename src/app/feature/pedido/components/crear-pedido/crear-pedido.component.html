@@ -1,0 +1,31 @@
+<h1>Registrar Pedido</h1>
+<form [formGroup]="pedidoForm" (ngSubmit)="cerar()">
+  <div class="row">
+    <div class="col-sm-2">
+      <label>Cantidad:</label>
+    </div>
+    <div class="col-sm-4">
+      <input validar type="text" id="cantidad" name="cantidad" placeholder="cantidad del producto" class="form-control"
+        formControlName="cantidad">
+    </div>
+  </div>
+  <div class="row">
+    <div class="col-sm-2">
+      <label>Producto:</label>
+    </div>
+    <div class="col-sm-4">
+      <input validar type="text" id="productoPedido" name="producto" placeholder="Producto pedido"
+        class="form-control" formControlName="producto">
+    </div>
+  </div>
+  <div class="row">
+    <div class="col-sm-2">
+      <label>Usuario:</label>
+    </div>
+    <div class="col-sm-4">
+      <input validar type="text" id="usuarioPedido" name="usuario" placeholder="Usuario pedido"
+        class="form-control" formControlName="usuario">
+    </div>
+  </div>
+  <button id="crear" class="button" type="submit">Crear</button>
+</form>

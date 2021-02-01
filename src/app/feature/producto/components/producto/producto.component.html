@@ -1,0 +1,15 @@
+<nav>
+  <ol>
+    <li>
+      <a id="linkProducto" routerLink="./" routerLinkActive="active"
+      [routerLinkActiveOptions]="{ exact: true }">Producto</a>
+    </li>
+    <li>
+      <a id="linkCrearProducto" routerLink="./crear" routerLinkActive="active">Crear producto</a>
+    </li>
+    <li>
+      <a id="linkListarProducto" routerLink="./listar" routerLinkActive="active">listar producto</a>
+    </li>
+  </ol>
+</nav>
+<router-outlet></router-outlet>

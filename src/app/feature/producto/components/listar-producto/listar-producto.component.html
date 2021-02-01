@@ -1,0 +1,21 @@
+<p>listar-Productos</p>
+<div id="productos">
+  <table style="width:100%">
+    <tr>
+      <th>Codigo Producto</th>
+      <th>Nombre</th>
+      <th>Precio</th>
+    </tr>
+    <tr class="elemento" *ngFor="let item of listaProductos | async">
+      <td>{{item.id}}</td>
+      <td>{{item.nombre}}</td>
+      <td>{{item.precio}}</td>
+      <td>
+        <button id="eliminar" (click)="borrar(item)">Eliminar Producto</button>
+      </td>
+      <td>
+        <button id="actualizar" (click)="actualizar(item)">Actualizar Precio</button>
+      </td>
+    </tr>
+  </table>
+</div>
